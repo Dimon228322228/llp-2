@@ -1614,11 +1614,3 @@ yyreturnlab:
 }
 
 #line 203 "parser.y"
-
-
-int main() {
-	yyparse();
-	print_ast_node(get_root_ast_node());
-	free_ast_node(get_root_ast_node());
-	return 0;
-}
