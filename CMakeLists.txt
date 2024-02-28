@@ -3,8 +3,8 @@ project(llp C)
 
 
 file(GLOB_RECURSE sources CONFIGURE_DEPENDS
-        src/*/*.c
-        include/*/*.h
+        parser/*/*.c
+        parser/*/*.h
         )
 
 add_executable(llp ${sources})
