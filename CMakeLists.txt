@@ -5,6 +5,8 @@ project(llp C)
 file(GLOB_RECURSE sources CONFIGURE_DEPENDS
         parser/*/*.c
         parser/*/*.h
+        parser/*.c
+        parser/*.h
         )
 
 add_executable(llp ${sources})
